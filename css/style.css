@@ -1,0 +1,50 @@
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: rgba(218, 220, 223, 0.67);
+}
+
+header.header {
+    background-image: url('../images/lampos-aritonang-24gR_9lCdes-unsplash\ 1.png');
+    background-size: cover;
+    /* couvre tout le header */
+    background-position: center;
+    /* centrée */
+    background-repeat: no-repeat;
+    height: 450px;
+    /* hauteur totale du viewport */
+    position: relative;
+}
+
+.btn {
+    width: 207px;
+    padding-left: 69px;
+    position: relative;
+}
+
+#title {
+    position: relative;
+}
+
+#search-bar {
+    position: relative;
+    height: 50px;
+}
+
+/* Quand on survole un élément de la liste */
+#section-tri .dropdown-menu li:hover {
+    background-color: #e7c151;
+    cursor: pointer;
+}
+
+input,
+#triTitle,
+ul,
+.badge,
+.card-text,
+#tag-wrapper {
+    font-family: 'Manrope', sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+}
